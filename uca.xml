@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
-	<icon>utilities-terminal</icon>
-	<name>Open Terminal Here</name>
+	<icon>alacritty</icon>
+	<name>Open Alacritty Here</name>
 	<submenu></submenu>
 	<unique-id>1730426688217461-1</unique-id>
-	<command>alacritty --working-directory=%f</command>
-	<description>Example for a custom action</description>
+	<command>alacritty --working-directory=%d</command>
+	<description>Open dir in alacritty</description>
 	<range></range>
 	<patterns>*</patterns>
-	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>kitty</icon>
+	<name>Open Kitty here</name>
+	<submenu></submenu>
+	<unique-id>1749739303032638-1</unique-id>
+	<command>kitty -d %d</command>
+	<description>Open dir in kitty</description>
+	<range></range>
+	<patterns>*</patterns>
 	<directories/>
 </action>
 </actions>
