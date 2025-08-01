@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
-	<icon>alacritty</icon>
-	<name>Open Alacritty Here</name>
+	<icon>foot</icon>
+	<name>Open Foot Client here</name>
 	<submenu></submenu>
-	<unique-id>1730426688217461-1</unique-id>
-	<command>alacritty --working-directory=%d</command>
-	<description>Open dir in alacritty</description>
-	<range></range>
+	<unique-id>1753123978341199-1</unique-id>
+	<command>footclient -D %d</command>
+	<description>Open dir in Foot Client</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>foot</icon>
+	<name>Open Foot here</name>
+	<submenu></submenu>
+	<unique-id>1753124110604734-2</unique-id>
+	<command>foot -D %d</command>
+	<description>Open in Foot</description>
+	<range>*</range>
 	<patterns>*</patterns>
 	<directories/>
 </action>
